@@ -1,0 +1,35 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "this is a demo chat app for Vootech",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Dev Bazh0",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^5.8.5",
+    "@hapi/joi": "^17.1.1",
+    "@pusher/push-notifications-server": "^1.2.3",
+    "@pusher/push-notifications-web": "^1.1.0",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1",
+    "firebase": "^8.6.2",
+    "firebase-admin": "^9.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.7",
+    "multer": "^1.4.2",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "pusher": "^5.0.0",
+    "pusher-js": "^7.0.3",
+    "swagger-jsdoc": "^6.0.1",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
